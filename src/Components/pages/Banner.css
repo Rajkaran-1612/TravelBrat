@@ -1,0 +1,43 @@
+.banner {
+  height: 63vh;
+  position: relative;
+  background: url("C:\Users\rajka\OneDrive\Desktop\Travel-brat\src\Images\img-8.jpg")
+    center center;
+}
+
+.banner__info {
+  background-color: #202020;
+  color: white;
+  padding-top: 15vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 38px;
+  width: 300px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+.banner__info > h5 {
+  margin-top: 10px;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  border: none;
+}
